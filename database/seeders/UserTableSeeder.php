@@ -50,4 +50,6 @@ class UserTableSeeder extends Seeder
 
 
     }
+
+    
 }

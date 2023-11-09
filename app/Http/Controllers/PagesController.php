@@ -31,4 +31,9 @@ class PagesController extends Controller
        return view("pages.vision");
     }
 
+
+    public function addUser(){
+        return view("pages.addUser");
+     }
+
 }

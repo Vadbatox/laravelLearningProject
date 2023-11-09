@@ -24,6 +24,30 @@ nav {
     background: linear-gradient(to right, #6c99c7d2, #dd2b13d2);
 }
 
+.userLink {
+    text-decoration: none;
+    color: #0b0bcb;
+    cursor: pointer;
+    padding-top: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.addUser {
+    display: block;
+    margin-top: 20px;
+}
+
+.userLink:hover {
+    margin-left: 5px;
+    font-size: 17px;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+
 .logo img {
     display: block;
     width: 180px;

@@ -22,7 +22,7 @@
                     <a href="/contact">Contact</a>
                 </li>
                 <li>
-                    <a href="/user">Users</a>
+                    <a href="/users">Users</a>
                 </li>
             </ol>
         </div>

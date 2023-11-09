@@ -12,4 +12,8 @@
     @endforeach
 </ol>
 
+<p class="addUser">
+ Pour ajouter des utilisateurs, cliquer <a href="/users/add" class="userLink">ici</a>
+</p>
+
 @endsection

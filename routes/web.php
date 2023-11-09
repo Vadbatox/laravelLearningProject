@@ -28,5 +28,8 @@ Route::get("/staff",[PagesController::class,"staff"]);
 
 Route::get("/vision",[PagesController::class,"vision"]);
 
+Route::get("/users",[UserController::class,"allUsers"]);
 
-Route::get("/user",[UserController::class,"allUsers"]);
+Route::get("/users/add",[PagesController::class,"addUser"]);
+
+Route::post("/users/add", [UserController::class,"store"]);
